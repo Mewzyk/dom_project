@@ -19,7 +19,8 @@ print('-------------------------')
 for route in climbingRoutes:
 	print('==========================')
 	for key in route.keys():
-		print(key, '-->', route[key]
+		print(key, '-->', route[key])
+
 print('hello world')
 
 
