@@ -9,3 +9,9 @@
 * Connect to server: ssh -i <path to pem key> ubuntu@<server-ip>
 ## How to run
 * on command line enter python3 curl_test.py
+## TO DO:
+* setup sql server
+* automate data to store in sql server
+* setup html path
+* simple visualization from data
+* host server publically 
