@@ -2,10 +2,6 @@
 
 Project to build and maintain Full Stack Web Development Skills
 
-## Getting Started
-
-
-
 ### Prerequisites
 
 What things you need to install the software and how to install them
@@ -58,8 +54,11 @@ Email me at: stephenthomasonline@gmail.com for contributor rights
 
 * **Stephen Thomas** - (https://github.com/mewzyk)
 
-## Acknowledgments
+## TO DO
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* setup server to host externally on AWS
+* create template html for intial render
+* learn about + connect sqlAlchemy
+* create model for data
+* build project directories
+* create setup.sh script 
