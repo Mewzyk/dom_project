@@ -10,7 +10,7 @@ Project to build and maintain Full Stack Web Development Skills
 
 What things you need to install the software and how to install them
 
-``'
+```
 python 3.5
 flask 0.12
 sqlalchemy x.x
