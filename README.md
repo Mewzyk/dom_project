@@ -80,3 +80,9 @@ alias rcsource="source ~/.bashrc"
 source ~/.bashrc
 ```
 * These commands save the file to your system and add two shortcuts
+
+```
+git add -A
+git commit -m "Hello World"
+git push
+```
