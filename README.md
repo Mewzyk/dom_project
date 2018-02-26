@@ -10,73 +10,53 @@ Project to build and maintain Full Stack Web Development Skills
 
 What things you need to install the software and how to install them
 
-```
+``'
 python 3.5
 flask 0.12
 sqlalchemy x.x
 pip
+AWS Account
+ubunutu x16.04 (production environment)
 ```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
 ```
+git clone https://github.com/Mewzyk/dom_project.git
 chmod +400 setup.sh (TO DO)
 ./setup.sh (TO DO)
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ## Deployment
+To deploy, first launch an AWS EC2 Instance ubunutu server from your dashboard.
 
-Add additional notes about how to deploy this on a live system
+ADD INSTRUCTIONS ON HOW TO HOST AND SETUP AN EXTERNAL IP ADRESS (TO DO)
+
+ssh into server via:
+'''
+ssh -i <path to .pem key> ubunutu@<ip Adress>
+'''
+
+After deploying your server, see Installing.
+
+To launch server:
+'''
+python3 app.py
+'''
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Flask](http://flask.pocoo.org/) - Webframework
+* [SqlAlchemy](https://www.sqlalchemy.org/) - Database ORM
+* [D3.js](https://d3js.org/) - Visualizaton Framework
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Email me at: stephenthomasonline@gmail.com for contributor rights
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Stephen Thomas** - (https://github.com/mewzyk)
 
 ## Acknowledgments
 
