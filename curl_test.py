@@ -21,6 +21,4 @@ for route in climbingRoutes:
 	for key in route.keys():
 		print(key, '-->', route[key])
 
-print('hello world')
-
 
