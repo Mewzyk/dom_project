@@ -9,7 +9,6 @@ climbingRoutes = database['routes']
 print('Printing Example Data set')
 print('-------------------------')
 
-
 #Loop that prints everything out
 #Climbing routes contains a List of routes
 #Each route is a dictionary with a list of keys
