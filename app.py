@@ -13,7 +13,7 @@ def hello():
    database = r.json()
    routes = database['routes']
 
-   object_keys = routes.keys()
+   object_keys = routes[0].keys()
 
    return '  '.join(object_keys)
     
