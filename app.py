@@ -1,7 +1,6 @@
 from flask import Flask
 from flask import render_template
 from flask_pymongo import PyMongo
-import requests
 import json
 
 app = Flask("getRoutey")
