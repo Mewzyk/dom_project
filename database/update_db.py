@@ -2,6 +2,10 @@ import json
 import pprint
 import requests
 from pymongo import MongoClient
+from pymongo.errors import DuplicateKeyError
+
+API_KEY = '200212432-f3aa9be57f04ce46760dce00bef02b2d'
+API_URL = 'https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=%d&lon=%d&maxDistance=200&key=%s' % API_KEY
 
 client = MongoClient()
 collection = client.getRoutey.routes
@@ -12,7 +16,9 @@ database = r.json()
 routes = database['routes']
 
 for route in routes:
-    collection.insert_one(route)
-    
+    try:
+        collection.insert_one(route)
+    except DuplicateKeyError:
+        pass
 
 pprint.pprint(collection.find())
