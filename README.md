@@ -80,3 +80,12 @@ sudo apt-get install -y mongodb-org
 ```
 sudo service mongod start
 ```
+* Enter mongo
+```
+mongo
+```
+* Run the update_db.py to populate the db
+* Put index on mountainproject id field
+```
+db.routes.createIndex( { "id" : 1 }, { unique: true } )
+```
