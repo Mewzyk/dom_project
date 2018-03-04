@@ -27,11 +27,11 @@ def home():
 
     print(routes[0]['id'])
     d = {}
-    d[routes[0]['id']] = {"Name":routes[0]['name']}
-    print(d)
-#### for collecting data if blank file 
-#    with open('routeInfo.json', 'w') as outfile:
-#            json.dump(routes, outfile)
+    for route in routes:
+        d[route['id']] = route
+
+    with open('routeInfo.json', 'w') as outfile:
+            json.dump(d, outfile)
 
     return "home!"
 
