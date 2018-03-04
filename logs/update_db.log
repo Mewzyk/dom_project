@@ -1,0 +1,39 @@
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=36&lon=-121&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=36&lon=-121&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7454
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=37&lon=-119&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=37&lon=-119&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7486
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=34&lon=-116&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=34&lon=-116&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7553
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=37&lon=-122&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=37&lon=-122&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7251
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=36.500000&lon=-121.202000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=36.500000&lon=-121.202000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7520
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=37.740000&lon=-119.573000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=37.740000&lon=-119.573000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7486
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=34.012000&lon=-116.168000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=34.012000&lon=-116.168000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7553
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=37.818000&lon=-122.288000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=37.818000&lon=-122.288000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7241
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=36.500000&lon=-121.202000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=36.500000&lon=-121.202000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7520
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=37.740000&lon=-119.573000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=37.740000&lon=-119.573000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7486
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=34.012000&lon=-116.168000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=34.012000&lon=-116.168000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7553
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=37.818000&lon=-122.288000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=37.818000&lon=-122.288000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7241
+DEBUG:root:https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=37.361000&lon=-118.395000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): www.mountainproject.com
+DEBUG:requests.packages.urllib3.connectionpool:"GET /data/get-routes-for-lat-lon?lat=37.361000&lon=-118.395000&maxDistance=200&key=200212432-f3aa9be57f04ce46760dce00bef02b2d HTTP/1.1" 200 7486
