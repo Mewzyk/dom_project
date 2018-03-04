@@ -44,6 +44,9 @@ Email me at: stephenthomasonline@gmail.com for contributor rights
 ## Authors
 
 * **Stephen Thomas** - (https://github.com/mewzyk)
+* **Breanna Baltaxe** - (https://github.com/bbaltaxe)
+* **Malcolm Flint** - (https://github.com/MalcolmFlint)
+* **Dominic Lavezolli** - (https://github.com/domiihl)
 
 ## TO DO
 
