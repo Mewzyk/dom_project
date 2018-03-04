@@ -63,30 +63,6 @@ Email me at: stephenthomasonline@gmail.com for contributor rights
 * build project directories
 * create setup.sh script 
 
-## Tutorial Task 1
-
-* Configure alias's to login to your remote server
-* To create aliases you need to edit the bash configuration file located in ~/.bashrc
-```
-vim ~/.bashrc
-```
-* Try putting these two commands into the file ~/.bashrc
-```
-alias rcedit="vim ~/.bashrc"
-alias rcsource="source ~/.bashrc"
-```
-* Then type:
-```
-source ~/.bashrc
-```
-* These commands save the file to your system and add two shortcuts
-
-```
-git add -A
-git commit -m "Hello World"
-git push
-```
-
 ## Setting up MongoDB/PyMongo
 
 * Get PyMongo
