@@ -23,27 +23,18 @@ chmod +400 setup.sh (TO DO)
 ./setup.sh (TO DO)
 ```
 
-## Deployment
-To deploy, first launch an AWS EC2 Instance ubunutu server from your dashboard.
+## Infastructure
+* There are two AWS EC2 Servers running that provide our application functionality.
+* Application server: 18.222.10.95
+* Mongo server: 18.219.228.163
 
-ADD INSTRUCTIONS ON HOW TO HOST AND SETUP AN EXTERNAL IP ADRESS (TO DO)
-
-ssh into server via:
-'''
-ssh -i <path to .pem key> ubunutu@<ip Adress>
-'''
-
-After deploying your server, see Installing.
-
-To launch server:
-'''
-python3 app.py
-'''
+## Data Ascess
+* The function get_route_data for the application server returns a json object with the desired route data. 
 
 ## Built With
 
 * [Flask](http://flask.pocoo.org/) - Webframework
-* [SqlAlchemy](https://www.sqlalchemy.org/) - Database ORM
+* [MongoDB](https://https://www.mongodb.com/) - Json Database
 * [D3.js](https://d3js.org/) - Visualizaton Framework
 
 ## Contributing
@@ -53,15 +44,9 @@ Email me at: stephenthomasonline@gmail.com for contributor rights
 ## Authors
 
 * **Stephen Thomas** - (https://github.com/mewzyk)
-
-## TO DO
-
-* setup server to host externally on AWS
-* create template html for intial render
-* learn about + connect sqlAlchemy
-* create model for data
-* build project directories
-* create setup.sh script 
+* **Breanna Baltaxe** - (https://github.com/bbaltaxe)
+* **Malcolm Flint** - (https://github.com/MalcolmFlint)
+* **Dominic Lavezolli** - (https://github.com/domiihl)
 
 ## Setting up MongoDB/PyMongo
 
