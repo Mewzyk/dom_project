@@ -13,10 +13,19 @@ def hello():
    database = r.json()
    routes = database['routes']
 
+#   with open('routeInfo.json', 'w') as outfile:
+#           json.dump(routes, outfile)
+
    object_keys = routes[0].keys()
 
    return '  '.join(object_keys)
     
+@app.route('/home') 
+def home():
+    return "home!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
+
+
+
