@@ -5,9 +5,17 @@
       {% else %}
       <title>Welcome to Microblog</title>
       {% endif %}
+
+    <link href="{{ url_for('static', filename='../static/css/base.css') }}" rel="stylesheet">
+
     </head>
     <body>
-        <div>Index: <a href="/index">Home</a></div>
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="check_data">check_data</a></li>
+          <li><a href="home">home</a></li>
+          <li style="float:right"><a href="#about">About</a></li>
+        </ul></a>
         <hr>
         {% block content %}{% endblock %}
     </body>
