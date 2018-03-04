@@ -34,7 +34,7 @@ chmod +400 setup.sh (TO DO)
 ## Built With
 
 * [Flask](http://flask.pocoo.org/) - Webframework
-* [SqlAlchemy](https://www.sqlalchemy.org/) - Database ORM
+* [MongoDB](https://https://www.mongodb.com/) - Json Database
 * [D3.js](https://d3js.org/) - Visualizaton Framework
 
 ## Contributing
@@ -47,15 +47,6 @@ Email me at: stephenthomasonline@gmail.com for contributor rights
 * **Breanna Baltaxe** - (https://github.com/bbaltaxe)
 * **Malcolm Flint** - (https://github.com/MalcolmFlint)
 * **Dominic Lavezolli** - (https://github.com/domiihl)
-
-## TO DO
-
-* setup server to host externally on AWS
-* create template html for intial render
-* learn about + connect sqlAlchemy
-* create model for data
-* build project directories
-* create setup.sh script 
 
 ## Setting up MongoDB/PyMongo
 
