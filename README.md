@@ -23,22 +23,13 @@ chmod +400 setup.sh (TO DO)
 ./setup.sh (TO DO)
 ```
 
-## Deployment
-To deploy, first launch an AWS EC2 Instance ubunutu server from your dashboard.
+## Infastructure
+* There are two AWS EC2 Servers running that provide our application functionality.
+* Application server: 18.222.10.95
+* Mongo server: 18.219.228.163
 
-ADD INSTRUCTIONS ON HOW TO HOST AND SETUP AN EXTERNAL IP ADRESS (TO DO)
-
-ssh into server via:
-'''
-ssh -i <path to .pem key> ubunutu@<ip Adress>
-'''
-
-After deploying your server, see Installing.
-
-To launch server:
-'''
-python3 app.py
-'''
+## Data Ascess
+* The function get_route_data for the application server returns a json object with the desired route data. 
 
 ## Built With
 
