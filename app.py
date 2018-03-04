@@ -26,11 +26,8 @@ def home():
 #    with open('routeInfo.json', 'w') as outfile:
 #            json.dump(routes, outfile)
 
-    object_keys = routes[0].keys()
+#    object_keys = routes[0].keys()
 
-    return '  '.join(object_keys)
- 
-    
     return "home!"
 
 if __name__ == '__main__':
