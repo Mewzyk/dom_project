@@ -21,12 +21,17 @@ def check():
    
 @app.route('/home') 
 def home():
+    r = requests.get('https://www.mountainproject.com/data/get-routes-for-lat-lon?lat=36.5&lon=-121.202&maxDistance=10&minDiff=5.6&maxDiff=5.8&key=200212432-f3aa9be57f04ce46760dce00bef02b2d')
+    database = r.json()
+    routes = database['routes']
 
-    
+    print(routes[0]['id'])
+    d = {}
+    d[routes[0]['id']] = {"Name":routes[0]['name']}
+    print(d)
+#### for collecting data if blank file 
 #    with open('routeInfo.json', 'w') as outfile:
 #            json.dump(routes, outfile)
-
-#    object_keys = routes[0].keys()
 
     return "home!"
 
