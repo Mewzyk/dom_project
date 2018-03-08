@@ -1,4 +1,4 @@
-# Not Mountain Project
+# WHERE2SEND.com
 
 Project to build and maintain Full Stack Web Development Skills
 ![Image of Yaktocat](https://github.com/Mewzyk/dom_project/blob/master/Untitled%20Diagram.png)
