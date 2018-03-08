@@ -1,7 +1,7 @@
 # Not Mountain Project
 
 Project to build and maintain Full Stack Web Development Skills
-![alt text](https://github.com/Mewzyk/dom_project/edit/master/README.md)
+![PNG Image](https://github.com/Mewzyk/dom_project/edit/master/README.md)
 
 ### Prerequisites
 
