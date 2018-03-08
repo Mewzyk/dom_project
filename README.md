@@ -1,7 +1,7 @@
 # Not Mountain Project
 
 Project to build and maintain Full Stack Web Development Skills
-![PNG Image](https://github.com/Mewzyk/dom_project/edit/master/README.md)
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ### Prerequisites
 
