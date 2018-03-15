@@ -5,7 +5,6 @@ r = requests.get('https://www.mountainproject.com/data/get-routes-for-lat-lon?la
 
 database = r.json()
 climbingRoutes = database['routes']
-
 print('Printing Example Data set')
 print('-------------------------')
 
@@ -16,8 +15,6 @@ print('-------------------------')
 #========================
 # KEY --> route[KEY]
 for route in climbingRoutes:
-	print('==========================')
-	for key in route.keys():
-		print(key, '-->', route[key])
-
-
+	print ('__________________________________________________')
+	for item in route:
+		print (item, ':', route[item])
