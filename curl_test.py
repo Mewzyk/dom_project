@@ -18,3 +18,4 @@ for route in climbingRoutes:
 	print ('__________________________________________________')
 	for item in route:
 		print (item, ':', route[item])
+return climbingRoutes
